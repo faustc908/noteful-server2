@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'deploy'
+1 verbose cli ]
+2 info using npm@6.13.4
+3 info using node@v12.16.1
+4 verbose run-script [ 'predeploy', 'deploy', 'postdeploy' ]
+5 info lifecycle noteful-server@1.0.0~predeploy: noteful-server@1.0.0
+6 verbose lifecycle noteful-server@1.0.0~predeploy: unsafe-perm in lifecycle true
+7 verbose lifecycle noteful-server@1.0.0~predeploy: PATH: C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\node-gyp-bin;C:\Users\Master Admin\Desktop\Noteful-Server-master\node_modules\.bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Master Admin\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\nodejs;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Microsoft VS Code\bin;C:\Users\Master Admin\AppData\Roaming\npm;C:\Users\Master Admin\AppData\Local\Microsoft\WindowsApps;C:\Users\Master Admin\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Master Admin\AppData\Local\GitHubDesktop\bin;C:\Program Files\heroku\bin;C:\Program Files\PostgreSQL\12\bin
+8 verbose lifecycle noteful-server@1.0.0~predeploy: CWD: C:\Users\Master Admin\Desktop\Noteful-Server-master
+9 silly lifecycle noteful-server@1.0.0~predeploy: Args: [ '/d /s /c', 'npm audit && npm run migrate:production' ]
+10 silly lifecycle noteful-server@1.0.0~predeploy: Returned: code: 1  signal: null
+11 info lifecycle noteful-server@1.0.0~predeploy: Failed to exec predeploy script
+12 verbose stack Error: noteful-server@1.0.0 predeploy: `npm audit && npm run migrate:production`
+12 verbose stack Exit status 1
+12 verbose stack     at EventEmitter.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\index.js:332:16)
+12 verbose stack     at EventEmitter.emit (events.js:311:20)
+12 verbose stack     at ChildProcess.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-lifecycle\lib\spawn.js:55:14)
+12 verbose stack     at ChildProcess.emit (events.js:311:20)
+12 verbose stack     at maybeClose (internal/child_process.js:1021:16)
+12 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:286:5)
+13 verbose pkgid noteful-server@1.0.0
+14 verbose cwd C:\Users\Master Admin\Desktop\Noteful-Server-master
+15 verbose Windows_NT 10.0.18363
+16 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "deploy"
+17 verbose node v12.16.1
+18 verbose npm  v6.13.4
+19 error code ELIFECYCLE
+20 error errno 1
+21 error noteful-server@1.0.0 predeploy: `npm audit && npm run migrate:production`
+21 error Exit status 1
+22 error Failed at the noteful-server@1.0.0 predeploy script.
+22 error This is probably not a problem with npm. There is likely additional logging output above.
+23 verbose exit [ 1, true ]
